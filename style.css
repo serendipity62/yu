@@ -1,0 +1,72 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.bg .from img{
+    width: 20px;
+    cursor: pointer;
+}
+.bg .from1{
+    display: none;
+}
+.bg .from1 img{
+    width: 20px;
+    cursor: pointer;
+}
+.big .from2 img{
+    display: none;
+}
+.big .from2 img{
+    width:20px;
+    cursor: pointer;
+}
+.bg{
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 300px;
+    height: 500px;
+    overflow: hidden;
+    box-shadow:5px 5px 18px 3px rgba(0, 0, 0, 0.6);
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    transition: 0.5s;
+    text-overflow: ellipsis;
+    padding: 20px;
+}
+.bg:hover{
+    background-color: rgba(0, 0, 0, 0.89);
+    color: #fff;
+}
+.bg:hover .title{
+    color:#eee;
+    border-bottom: 2px solid rgba(225,225,225,0.6);
+}
+.title img{
+    width: 100px;
+    border-radius: 28%;
+}
+.title{
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 10px;
+border-bottom: 2px solid rgba(0, 0, 0, 0.6);
+color:rgba(112, 112, 112);
+font-size:18px;
+}
+.content{
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 10px;
+    font-size: 18px;
+    text-indent: 28px;
+    margin-top: 18px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 300px;
+
+
+}
